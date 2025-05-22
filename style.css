@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: poppins, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    background-color:#1e293b;
+    color: #fff;
+    padding: 1rem;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Amiri {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+nav a:hover {
+    color: #38def8;
+}
+.hero {
+    background: linear-gradient(to right, #38def8, #b0e2cd);
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.hero img {
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 1rem;
+}
+.section {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.bg-light {
+    background-color: #e2e8f0;
+}
+.skills, .habits {
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.skills li, .habits li {
+    background-color: #cbd5e1;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+.project-card {
+    background-color: #fff;
+    border-left: 5px solid #3b82f6;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: left;
+
+}
+
+.project-card h3 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    color: #1e3a8a;
+}
+.project-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+.project-card .tag {
+    background-color: #e0f2fe;
+    color: #0069a1;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-transform:uppercase;
+}
+
+footer {
+    background-color: #1e293b;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+
+}
